@@ -14,6 +14,10 @@
       .js [data-entrance] { visibility: hidden; }
 </style>
 
+
+<link href="https://fonts.googleapis.com/css?family=Aclonica" rel="stylesheet">
+
+
 <style type="text/css">
   
 
@@ -25,62 +29,74 @@ body
 
 .cont1
 {
+   text-align: center;
     height:14em; 
-    float: left; 
-    background:grey; 
-    width:34%;
+    float: left;  
+    background: #F7F7F7;
+    /*background: url('images/bg5.jpg'); 
+    background-size: cover;
+    */width:32%;
     -webkit-clip-path: polygon(25% 0%, 100% 0, 100% 100%, 25% 100%, 0% 50%);
     clip-path: polygon(25% 0%, 100% 0, 100% 100%, 25% 100%, 0% 50%);
-    border: 5px solid black;
-
+    border: 10px solid #E55F5F;
 }
 
 .cont1:hover
 {
-    height:14em; 
-    float: left; 
-    background:#999; 
     width:55%;
-    -webkit-clip-path: polygon(25% 0%, 100% 0, 100% 100%, 25% 100%, 0% 50%);
-    clip-path: polygon(25% 0%, 100% 0, 100% 100%, 25% 100%, 0% 50%);
-    border: 5px solid black;
-
 }
 
 
 .cont2
 {
+   text-align: center;
     height:14em; 
-    float: left; 
-    background:grey;
-    width:34%;
+    float: left;
+    background:#F7F7F7;
+    /*
+    background: url('images/bg5.jpg'); 
+    background-size: cover;*/
+    width:32%;
     -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-    border: 5px solid black;
+    border: 10px solid #E55F5F;
 }
 
 
 
 .cont2:hover
 {
-    height:14em; 
-    float: left; 
-    background:#999;
     width:55%;
-    -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-    border:5px solid black;
 }
 
 
 .heading
 {
   float: left;
-  height:250px; 
+  height:2.2em; 
   text-align: center; 
-  background:red; width:100%; -
+  width:100%;
+  padding: 2% 0% 0% 0%;
+  margin-bottom: -.5%;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 65%, 8% 98%); 
   clip-path: polygon(0 0, 100% 0, 100% 65%, 8% 98%);
+  border: 20px 0px 0px 0px solid #999;
+  font-size: 70px;
+  color:white;
+  font-family: 'Aclonica', sans-serif;
+  background: rgba(0,0,0,0.5);
+}
+
+.bg
+{
+  width: 100%;
+  float: left; 
+  background: url('images/bg2.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center; 
+  font-family: 'Aclonica', sans-serif;
+  color: #E55F5F;
 }
 
 </style>
@@ -90,35 +106,74 @@ body
 
 
 
-  <div style="height: 1900px; width: 100%; margin: 0px auto; text-align: center;">
-    <div style="height: 400px; width: 100%; background:#333; float: left;">
+  <div style="height: auto; width: 100%; margin: 0px auto; text-align: center; background:#F7F7F7;">
+
+
+    <div class="waste" style="height: 400px; width: 100%; background:#333; float: left;">
     </div>
+    
+    <div class="none" style="width: 100%; height: auto; background: url('images/bg2.jpg'); background-size: cover; background-attachment: fixed; float: left;">
     <div class="heading" data-entrance="from-top" data-entrance-delay="400">
-        <h1 style="font-family: arial; font-size: 83px; color:white;">Together We make Difference</h1>
+        Together We make Difference
     </div>
-    <div style="width: 100%;float: left;text-align: center; margin: 0px auto;">
-      <div style="height: auto; margin-left: 19%;">
-        <div class="cont1" data-entrance="from-left" data-entrance-delay="200">
+  </div>
+    
+
+    <div class="bg">
+      <div class="" style="width: 100%; padding:4% 0%;  height: auto; float: left; background: rgba(0,0,0,0.4); ">
+
+      <div style="height: auto; margin-left: 22%;">
+
+        <div class="cont1" data-entrance="from-left" data-entrance-delay="200" id="skilled">
+          <img src="images/computer.png" style="width: 30%; float: left; margin:14% 10% 0% 10%;">
+          <h2 style="width: 50%; float: left; margin-top:20%; margin-left:-8%;">Skill Development</h2>
         </div>
 
         <div class="cont2" data-entrance="from-right" data-entrance-delay="200">
+          <h1 style="width: 50%; float: left; margin-top:20%; margin-left:4%;">Team Work</h1>
+          <img src="images/teamwork.svg" style="width: 30%; float: left; margin:14% 0% 0% 6%;">
         </div>
+
       </div>
 
-      <div style=" height: auto; margin-left: 19%;">
+      <div style=" height: auto; margin-left: 22%;">
+
         <div class="cont1" data-entrance="from-left" data-entrance-delay="200">
+          <img src="images/user.svg" style="width: 30%; float: left; margin:14% 10% 0% 10%;">
+          <h1 style="width: 50%; float: left; margin-top:20%; margin-left:-8%;">Members</h1>
         </div>
 
         <div class="cont2" data-entrance="from-right" data-entrance-delay="200">
+          <h2 style="width: 50%; float: left; margin-top:20%; margin-left:4%;">Projects and Achievements</h2>
+          <img src="images/presentation.svg" style="width: 30%; float: left; margin:14% 0% 0% 6%;">
+        
+          </div>
         </div>
       </div>
+
     </div>
+
+
   </div>
 
 
 <script src="dists/croll-entrance.js"></script>
 <script src="src/scroll-entrance.js"></script>
+<!-- 
+<script type="text/javascript">
+  
+var skill = document.querySelector('#skilled');
+
+skill.addEventListener("mouseover",function(){
+  this.innerHTML = "hello";
+});
 
 
+skill.addEventListener("mouseout",function(){
+  this.innerHTML = "Skill Development</h1>";
+});
+
+</script>
+ -->
 </body>
 </html>
