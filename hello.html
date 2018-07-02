@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+
+	<style>
+      /* Ensure elements are hidden while ScrollEntrance is loading */
+      [data-entrance] { visibility: hidden; }
+</style>
+
+<style>
+      /* Ensure elements are hidden while ScrollEntrance is loading */
+      .js [data-entrance] { visibility: hidden; }
+</style>
+
+<style type="text/css">
+  
+
+body
+{
+  margin: 0px auto;
+}
+
+
+.cont1
+{
+    height:14em; 
+    float: left; 
+    background:grey; 
+    width:34%;
+    -webkit-clip-path: polygon(25% 0%, 100% 0, 100% 100%, 25% 100%, 0% 50%);
+    clip-path: polygon(25% 0%, 100% 0, 100% 100%, 25% 100%, 0% 50%);
+    border: 5px solid black;
+
+}
+
+.cont1:hover
+{
+    height:14em; 
+    float: left; 
+    background:#999; 
+    width:55%;
+    -webkit-clip-path: polygon(25% 0%, 100% 0, 100% 100%, 25% 100%, 0% 50%);
+    clip-path: polygon(25% 0%, 100% 0, 100% 100%, 25% 100%, 0% 50%);
+    border: 5px solid black;
+
+}
+
+
+.cont2
+{
+    height:14em; 
+    float: left; 
+    background:grey;
+    width:34%;
+    -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    border: 5px solid black;
+}
+
+
+
+.cont2:hover
+{
+    height:14em; 
+    float: left; 
+    background:#999;
+    width:55%;
+    -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    border:5px solid black;
+}
+
+
+.heading
+{
+  float: left;
+  height:250px; 
+  text-align: center; 
+  background:red; width:100%; -
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 65%, 8% 98%); 
+  clip-path: polygon(0 0, 100% 0, 100% 65%, 8% 98%);
+}
+
+</style>
+
+</head>
+<body>
+
+
+
+  <div style="height: 1900px; width: 100%; margin: 0px auto; text-align: center;">
+    <div style="height: 400px; width: 100%; background:#333; float: left;">
+    </div>
+    <div class="heading" data-entrance="from-top" data-entrance-delay="400">
+        <h1 style="font-family: arial; font-size: 83px; color:white;">Together We make Difference</h1>
+    </div>
+    <div style="width: 100%;float: left;text-align: center; margin: 0px auto;">
+      <div style="height: auto; margin-left: 19%;">
+        <div class="cont1" data-entrance="from-left" data-entrance-delay="200">
+        </div>
+
+        <div class="cont2" data-entrance="from-right" data-entrance-delay="200">
+        </div>
+      </div>
+
+      <div style=" height: auto; margin-left: 19%;">
+        <div class="cont1" data-entrance="from-left" data-entrance-delay="200">
+        </div>
+
+        <div class="cont2" data-entrance="from-right" data-entrance-delay="200">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<script src="dists/croll-entrance.js"></script>
+<script src="src/scroll-entrance.js"></script>
+
+
+</body>
+</html>
