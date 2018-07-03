@@ -1,0 +1,127 @@
+
+body
+{
+  margin: 0px auto;
+}
+
+
+.cont1
+{
+   text-align: center;
+    height:14em; 
+    float: left;  
+    background: #F7F7F7;
+    /*background: url('images/bg5.jpg'); 
+    background-size: cover;
+    */width:32%;
+    -webkit-clip-path: polygon(25% 0%, 100% 0, 100% 100%, 25% 100%, 0% 50%);
+    clip-path: polygon(25% 0%, 100% 0, 100% 100%, 25% 100%, 0% 50%);
+    border: 10px solid #E55F5F;
+}
+
+.cont1:hover
+{
+    width:55%;
+    background: #FBE6E6: 
+}
+
+.cont2
+{
+   text-align: center;
+    height:14em; 
+    float: left;
+    background:#F7F7F7;
+    /*
+    background: url('images/bg5.jpg'); 
+    background-size: cover;*/
+    width:32%;
+    -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    border: 10px solid #E55F5F;
+}
+
+
+
+.cont2:hover
+{
+    width:55%;
+    background: #FBE6E6;
+}
+
+
+.heading
+{
+  float: left;
+  height:2.2em; 
+  text-align: center; 
+  width:100%;
+  padding: 2% 0% 0% 0%;
+  margin-bottom: -.5%;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 65%, 8% 98%); 
+  clip-path: polygon(0 0, 100% 0, 100% 65%, 8% 98%);
+  border: 20px 0px 0px 0px solid #999;
+  font-size: 70px;
+  color:white;
+  font-family: 'Aclonica', sans-serif;
+  background: rgba(0,0,0,0.5);
+}
+
+.bg
+{
+  width: 100%;
+  float: left; 
+  background: url('images/bg2.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center; 
+  font-family: 'Aclonica', sans-serif;
+  color: #E55F5F;
+}
+
+.img1
+{
+  width: 30%; 
+  float: left; 
+  margin:14% 10% 0% 10%;
+}
+
+.head1
+{
+  width: 50%; 
+  float: left; 
+  margin-top:20%; 
+  margin-left:-8%;
+}
+
+.img2
+{
+  width: 30%;
+  float: left;
+  margin:14% 0% 0% 6%;
+}
+
+.head2
+{
+  width: 50%; 
+  float: left; 
+  margin-top:20%; 
+  margin-left:4%;
+}
+
+.none
+{
+  width: 100%;
+  height: auto; 
+  background: url('images/bg2.jpg'); 
+  background-size: cover; 
+  background-attachment: fixed; 
+  float: left;
+}
+
+
+
+
+
+
+
+
