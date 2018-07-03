@@ -1,8 +1,11 @@
 var skill = document.querySelector('#skilled');
 var team = document.querySelector('#team');
+var member = document.querySelector('#member');
+var proj = document.querySelector('#proj');
+
 
 skill.addEventListener("mouseover",function(){
-  this.innerHTML = 'We focus on Skill development,we organise sessions,flash classes for students that help in enhancing their skills.';
+  this.innerHTML = '<br><br><br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp We focus on Skill development,we organise sessions,flash classes for students that help in enhancing their skills.';
 });
 
 
@@ -12,7 +15,7 @@ skill.addEventListener("mouseout",function(){
 
 
 team.addEventListener("mouseover",function(){
-  this.innerHTML = 'We work in teams for successful fulfillation of various jobs,we here at CESS have Technical, Literary, Placement, Promotion, Web Dev Teams.';
+  this.innerHTML = '<br><br><br> &nbsp &nbsp &nbsp We work in teams for <br>successful fulfillation of various jobs,we here at CESS have Technical, Literary, Placement, Promotion, Web Dev Teams.';
 });
 
 
@@ -22,7 +25,7 @@ team.addEventListener("mouseout",function(){
 
 
 member.addEventListener("mouseover",function(){
-  this.innerHTML = 'We have over 300 members in CESS.All the volunteers and members are categorized into various teams.';
+  this.innerHTML = '<br><br><br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp We have over 300 members in &nbsp &nbsp &nbsp &nbsp CESS.All the volunteers and members are categorized into <br> various teams.';
 });
 
 
@@ -31,7 +34,7 @@ member.addEventListener("mouseout",function(){
 });
 
 proj.addEventListener("mouseover",function(){
-  this.innerHTML = 'We undertake projects and we have gone quite a far in terms of achievements.';
+  this.innerHTML = '<br><br><br> We undertake projects and <br> we have gone quite a far <br> in terms of projects and achievements.';
 });
 
 
