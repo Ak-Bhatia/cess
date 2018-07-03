@@ -11,9 +11,7 @@ body
     height:14em; 
     float: left;  
     background: #F7F7F7;
-    /*background: url('images/bg5.jpg'); 
-    background-size: cover;
-    */width:32%;
+    width:32%;
     -webkit-clip-path: polygon(25% 0%, 100% 0, 100% 100%, 25% 100%, 0% 50%);
     clip-path: polygon(25% 0%, 100% 0, 100% 100%, 25% 100%, 0% 50%);
     border: 10px solid #E55F5F;
@@ -21,8 +19,7 @@ body
 
 .cont1:hover
 {
-    width:55%;
-    background: #FBE6E6: 
+    background: #FBE6E6;
 }
 
 .cont2
@@ -31,9 +28,6 @@ body
     height:14em; 
     float: left;
     background:#F7F7F7;
-    /*
-    background: url('images/bg5.jpg'); 
-    background-size: cover;*/
     width:32%;
     -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
@@ -44,7 +38,6 @@ body
 
 .cont2:hover
 {
-    width:55%;
     background: #FBE6E6;
 }
 
@@ -117,11 +110,3 @@ body
   background-attachment: fixed; 
   float: left;
 }
-
-
-
-
-
-
-
-
